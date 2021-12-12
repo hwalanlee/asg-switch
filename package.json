@@ -1,28 +1,22 @@
 {
   "name": "asg-switch",
-  "version": "0.1.0",
-  "bin": {
-    "asg-switch": "bin/asg-switch.js"
-  },
+  "version": "1.0.0",
+  "description": "git init && git add . && git commit -m \"first commit\" && git branch -M master && git remote add origin https://github.com/hwalanlee/asg-switch.git && git push -u origin master",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@types/jest": "^26.0.10",
-    "@types/node": "10.17.27",
-    "aws-cdk": "2.1.0",
-    "jest": "^26.4.2",
-    "ts-jest": "^26.2.0",
-    "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwalanlee/asg-switch.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwalanlee/asg-switch/issues"
+  },
+  "homepage": "https://github.com/hwalanlee/asg-switch#readme",
   "dependencies": {
-    "aws-sdk": "^2.1046.0",
-    "cli-interact": "^0.1.9",
-    "constructs": "^10.0.0",
-    "source-map-support": "^0.5.16"
+    "aws-sdk": "^2.1046.0"
   }
 }
